@@ -33,7 +33,7 @@
         </plugins>
         
     </build>
-<!-- get every artifact through hapvida-maven-group, which proxies all the artifacts that we need -->
+<!-- get every artifact through hapvida-maven-group, which proxies all the artifacts that we need 
    <repositories>
        <repository>
            <id>hapvida-maven-group</id>
@@ -48,3 +48,4 @@
        </pluginRepository>
    </pluginRepositories>
 </project>
+-->
