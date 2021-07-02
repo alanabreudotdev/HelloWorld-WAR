@@ -33,5 +33,18 @@
         </plugins>
         
     </build>
+<!-- get every artifact through hapvida-maven-group, which proxies all the artifacts that we need -->
+   <repositories>
+       <repository>
+           <id>hapvida-maven-group</id>
+	   <url>http://ci-dev.hapvida.com.br:8081/repository/hapvida-maven-group/</url>
+       </repository>
+   </repositories>
 
+   <pluginRepositories>
+       <pluginRepository>
+            <id>hapvida-maven-group</id>
+            <url>http://ci-dev.hapvida.com.br:8081/repository/hapvida-maven-group/</url>
+       </pluginRepository>
+   </pluginRepositories>
 </project>
